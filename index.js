@@ -107,7 +107,7 @@ const highestValue = _.pluck(db, 'name').sort().reverse()[0];
 const uniqueKeys = _.chain(db).pluck('age').unique().value().length;
 
 const insert = (done) => {
-  l.log('Testing inject(key, value)'.yellow);
+  l.log('Testing inject(key, value)');
 
   const suite = new Benchmark.Suite();
   const results = [];
@@ -175,7 +175,7 @@ const insert = (done) => {
 };
 
 const get = (done) => {
-  l.log('Testing get(key)'.yellow);
+  l.log('Testing get(key)');
 
   const suite = new Benchmark.Suite();
   const results = [];
@@ -269,7 +269,7 @@ const get = (done) => {
 };
 
 const getAllValues = (done) => {
-  l.log('Testing get all values'.yellow);
+  l.log('Testing get all values');
 
   const suite = new Benchmark.Suite();
   const results = [];
@@ -342,7 +342,7 @@ const getAllValues = (done) => {
 };
 
 const getRange = (done) => {
-  l.log('Testing getRange(lowerBound, upperBound)'.yellow);
+  l.log('Testing getRange(lowerBound, upperBound)');
 
   const suite = new Benchmark.Suite();
   const results = [];
@@ -422,7 +422,7 @@ const getRange = (done) => {
 };
 
 const remove = (done) => {
-  l.log('Testing remove(key, value)'.yellow);
+  l.log('Testing remove(key, value)');
 
   const suite = new Benchmark.Suite();
   const results = [];
