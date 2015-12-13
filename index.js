@@ -12,7 +12,6 @@ const Benchmark = require('benchmark');
 const Set = require('sorted-map');
 
 const async = require('async');
-const colors = require('colors');
 const l = require('log-anything');
 
 const db = [];

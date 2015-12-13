@@ -13,7 +13,6 @@
     "benchmark": "^1.0.0",
     "bplus-index": "^0.0.6",
     "bplustree": "^1.1.2",
-    "colors": "^1.1.2",
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^2.0.0",
     "eslint-plugin-react": "^3.11.3",
