@@ -1,6 +1,6 @@
 {
   "name": "js-index-data-structures",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "run": "babel index.js > tmp.js && node tmp.js && rm tmp.js"
   },
